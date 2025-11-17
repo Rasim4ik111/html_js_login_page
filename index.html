@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/html_js_login_page/style.css">
+</head>
 <body>
-    <form style="display: flex; justify-content: center; align-items:center; flex-direction: column; height: 100vh;">
+    <div class="form">
+        <form>
 
-        <label for="login">Login</label>
-        <input style="margin-top: 10px; padding: 10px" id="login" type="text" placeholder="Enter User Login" />
-        <br><br>
+            <h2>Username</h2>
+            <input id="login" type="text" placeholder="admin" />
+            <br><br>
 
-        <label for="password">Password</label>
-        <input style="margin-top: 10px; padding: 10px" id="password" type="password"
-            placeholder="Enter User Password" />
-        <br><br>
+            <h2>Password</h2>
+            <input  id="password" type="password"
+                placeholder="admin" />
+            <br><br>
 
-        <button style="padding: 10px 20px;" type="button" id="btn">Submit</button>
+            <button class="btn" style="padding: 10px 20px;" type="button" id="btn">LOGİN</button>
 
-    </form>
+        </form>
+    </div>
 
     <script src="main.js"></script>
 </body>
