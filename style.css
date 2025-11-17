@@ -1,0 +1,58 @@
+body {
+    background: #f0f0f0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;   /* ← вот этого не хватает */
+    height: 100vh;         /* ← чтобы тело растянулось на весь экран */
+    color: white;
+    
+}
+
+.form {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    background-color: rgb(191, 127, 48);
+    margin: 150px auto;
+    border-radius: 30px 0;
+    padding: 50px 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.form form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+h2 {
+    display: block;
+    padding-right: 110px;
+}
+
+input {
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: transparent;
+    box-shadow: rgba(158, 158, 186, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border: 2px solid lime;
+    border-radius: 20px;
+    font-size: 24px;
+    width: 200px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: greenyellow;
+}
