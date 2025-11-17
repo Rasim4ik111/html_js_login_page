@@ -18,4 +18,7 @@ btn.addEventListener('click', function () {
         alert("Qeydiyyat edin")
     }
 
+    document.getElementById('login').value=''
+    document.getElementById('password').value=''
+
 })
